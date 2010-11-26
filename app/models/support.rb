@@ -16,9 +16,7 @@ include ActiveModel::Validations
     @attributes[key]
   end
 
-  def to_key
-
-  end
+  def to_key; end
 
   def save
     if self.valid?
@@ -27,5 +25,4 @@ include ActiveModel::Validations
     end
     return false
   end
-
 end

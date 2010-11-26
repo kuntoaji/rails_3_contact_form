@@ -1,5 +1,5 @@
 class SupportsController < ApplicationController
-def new
+  def new
     @support = Support.new(:id => 1)
   end
 
@@ -12,5 +12,4 @@ def new
       render 'new'
     end
   end
-
 end
